@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import LandingPage from './components/landingpage'
+import LandingPage from './components/LandingPage'
 import Dashboard from './components/Dashboard'
 import TypingTest from './components/TypingTest'
 import SpeechTest from './components/SpeechTest'
@@ -104,9 +104,11 @@ function App() {
       <div className="grid-bg"></div>
       <div className="glow-orb glow-orb-1"></div>
       <div className="glow-orb glow-orb-2"></div>
-      <div className="relative z-10 w-full overflow-x-hidden">
-        {renderView()}
-      </div>
+      <div className="relative z-10 w-full min-h-screen flex justify-center">
+  <div className="w-full max-w-7xl px-4">
+    {renderView()}
+  </div>
+</div>
     </>
   )
 }
