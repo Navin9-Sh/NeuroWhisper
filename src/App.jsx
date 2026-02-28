@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import LandingPage from './components/LandingPage'
+import LandingPage from './components/landingpage'
 import Dashboard from './components/Dashboard'
 import TypingTest from './components/TypingTest'
 import SpeechTest from './components/SpeechTest'
