@@ -99,18 +99,19 @@ function App() {
     }
   }
 
-  return (
-    <>
-      <div className="grid-bg"></div>
-      <div className="glow-orb glow-orb-1"></div>
-      <div className="glow-orb glow-orb-2"></div>
-      <div className="relative z-10 w-full min-h-screen flex justify-center">
-  <div className="w-full max-w-7xl px-4">
-    {renderView()}
-  </div>
-</div>
-    </>
-  )
+return (
+  <>
+    <div className="grid-bg"></div>
+    <div className="glow-orb glow-orb-1"></div>
+    <div className="glow-orb glow-orb-2"></div>
+
+    <div className="relative z-10 min-h-screen flex justify-center">
+      <div className="w-full max-w-6xl px-6">
+        {renderView()}
+      </div>
+    </div>
+  </>
+)
 }
 
 export default App
